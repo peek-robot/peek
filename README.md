@@ -29,7 +29,7 @@ We include PEEK VLM inference, VLM data labeling, ACT+PEEK pre-trained models + 
 ```bash
 git clone --recursive https://github.com/peek-robot/peek.git # to download all submodules
 
-# or if you already downloaded the repo with --recursive:
+# or if you already downloaded the repo without --recursive:
 git submodule update --init --recursive
 ```
 - Follow the instructions in [peek_vlm](peek_vlm/README.md) to install the VLM.
