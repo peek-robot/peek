@@ -1,0 +1,6 @@
+[submodule "openpi"]
+	path = openpi
+	url = git@github.com:peek-robot/openpi.git
+[submodule "lerobot"]
+	path = lerobot
+	url = git@github.com:peek-robot/lerobot.git
