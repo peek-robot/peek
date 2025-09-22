@@ -3,11 +3,12 @@
 - [ ] Add point tracking 
 - [x] Add lerobot
 - [x] Add openpi
+- [ ] VLM bridge labeling code example
+- [ ] Instructions for generating lerobot dataset from VLM labeled stuff
 - [ ] Add dataset link
 - [ ] Add 3dda code 
 - [ ] Add gradio example
 - [ ] Add peek_vlm repo
-- [ ] Add VLM data labeling example
 - [ ] Add VLM training code
 
 # PEEK: Guiding and Minimal Image Representations for Zero-Shot Generalization of Robot Manipulation Policies
