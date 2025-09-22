@@ -25,6 +25,12 @@
 We include PEEK VLM inference, VLM data labeling, ACT+PEEK pre-trained models + inference (on widowx) + training code, Pi-0+PEEK pre-trained models + inference (on widowx) + training code, and 3D-DA simulation code.
 
 ### Installation 
+```bash
+git clone --recursive https://github.com/peek-robot/peek.git # to download all submodules
+
+# or if you already downloaded the repo with --recursive:
+git submodule update --init --recursive
+```
 - Follow the instructions in [peek_vlm](peek_vlm/README.md) to install the VLM.
 - For ACT baseline training/inference, follow the instructions in [lerobot](lerobot/README.md) to install the LeRobot.
 - For Pi-0, follow the instructions in [openpi](openpi/README.md) to install OpenPI.
