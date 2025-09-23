@@ -89,6 +89,8 @@ We provide an example of using PEEK's VLM to label data in the [peek_vlm](peek_v
 
 We have inference examples (gradio, server/client), and we also have an example of batched labeling of VLM outputs at [bridge example](peek_vlm/scripts/label_bridge_data.py) with instructions in the README.
 
+Alternatively, if you just need the PEEK VLM path/mask labels for BRIDGE_v2, download [here](https://huggingface.co/datasets/jesbu1/peek_bridge_labels).
+
 ## Making a dataset with PEEK VLM labels
 
 TODO
