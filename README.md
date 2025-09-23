@@ -7,7 +7,7 @@
 - [ ] Instructions for generating lerobot dataset from VLM labeled stuff
 - [ ] Add dataset link
 - [ ] Add 3dda code 
-- [ ] Add gradio example
+- [x] Add gradio example
 - [ ] Add peek_vlm repo
 - [ ] Add VLM training code
 
