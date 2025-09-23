@@ -1,6 +1,6 @@
 # TODOs
 
-- [ ] Add point tracking 
+- [x] Add point tracking 
 - [x] Add lerobot
 - [x] Add openpi
 - [ ] VLM bridge labeling code example
@@ -43,7 +43,6 @@ git submodule update --init --recursive
 
 ### Basic Usage
 
-
 ## 📖 Overview
 
 PEEK works by:
@@ -78,6 +77,29 @@ PEEK significantly improves policy performance across various scenarios:
 - **Semantic Generalization**: Handles novel objects and instructions
 - **Visual Clutter**: Robust performance in cluttered environments
 
+## Data Annotation / Data Labeling
+
+We use the point tracking code to label the data. 
+To download raw OXE or BRIDGE_v2 datasets like we used for PEEK VLM training, or to try out the data annotation pipeline on your own dataset,
+see the [point tracking](point_tracking/README.md) for instructions and examples.
+
+## Using PEEK's VLM to label data
+
+We provide an example of using PEEK's VLM to label data in the [peek_vlm](peek_vlm/README.md) folder.
+
+We have inference examples (gradio, server/client), and we also have an example of batched labeling of VLM outputs at [bridge example](peek_vlm/scripts/label_bridge_data.py) with instructions in the README.
+
+## Making a dataset with PEEK VLM labels
+
+TODO
+
+## Policy Training 
+
+TODO
+
+## Policy Inference
+
+TODO
 
 ## 📄 Citation
 

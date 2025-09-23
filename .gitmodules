@@ -4,3 +4,6 @@
 [submodule "lerobot"]
 	path = lerobot
 	url = git@github.com:peek-robot/lerobot.git
+[submodule "point_tracking"]
+	path = point_tracking
+	url = git@github.com:peek-robot/point_tracking.git
