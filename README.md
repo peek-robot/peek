@@ -78,34 +78,7 @@ PEEK significantly improves policy performance across various scenarios:
 - **Semantic Generalization**: Handles novel objects and instructions
 - **Visual Clutter**: Robust performance in cluttered environments
 
-## 🛠️ Development
 
-### Setting up Development Environment
-
-```bash
-# Install development dependencies
-pip install -e ".[dev]"
-
-# Run tests
-pytest tests/
-
-# Run linting
-black peek/
-flake8 peek/
-```
-
-### Training Your Own VLM
-
-```bash
-# Prepare data
-python scripts/prepare_data.py --dataset bridge --output_dir data/bridge
-
-# Train VLM
-python scripts/train_vlm.py --config configs/vlm_training.yaml
-
-# Evaluate
-python scripts/evaluate.py --model_path checkpoints/vlm_best.pth
-```
 ## 📄 Citation
 
 ```bibtex
