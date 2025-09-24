@@ -109,7 +109,7 @@ TODO
 @inproceedings{zhang2025peek,
     title={PEEK: Guiding and Minimal Image Representations for Zero-Shot Generalization of Robot Manipulation Policies}, 
     author={Jesse Zhang and Marius Memmel and Kevin Kim and Dieter Fox and Jesse Thomason and Fabio Ramos and Erdem Bıyık and Abhishek Gupta and Anqi Li},
-    booktitle={arXiv:TODO},
+    booktitle={arXiv:2509.18282},
     year={2025},
 }
 ```
