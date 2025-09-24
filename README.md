@@ -16,8 +16,9 @@
 ![PEEK Teaser](peek_teaser.jpg)
 
 
-[![arXiv](https://img.shields.io/badge/arXiv-2025.XXXXX-b31b1b.svg)](https://arxiv.org/abs/TODO)
+[![arXiv](https://img.shields.io/badge/arXiv-2509.18282-b31b1b.svg)](https://arxiv.org/abs/2509.18282)
 [![Website](https://img.shields.io/badge/Website-peek--robot.github.io-blue)](https://peek-robot.github.io/)
+[![Huggingface Papers](https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.png)](https://huggingface.co/papers/2509.18282)
 
 **PEEK** enhances the zero-shot generalization ability of any RGB-input manipulation policy by showing policies *where to focus on* and *what to do*. This guidance is given to the policy via a VLM that predicts *paths* and *masking points* to draw onto the policy's input images in closed-loop.
 
