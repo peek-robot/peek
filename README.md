@@ -5,7 +5,8 @@
 - [x] Add openpi
 - [ ] VLM bridge labeling code example
 - [ ] Instructions for generating lerobot dataset from VLM labeled stuff
-- [ ] Add dataset link
+- [x] Add dataset link
+- [x] Add model link
 - [ ] Add 3dda code 
 - [x] Add gradio example
 - [ ] Add peek_vlm repo
@@ -15,10 +16,20 @@
 
 ![PEEK Teaser](peek_teaser.jpg)
 
-
-[![arXiv](https://img.shields.io/badge/arXiv-2509.18282-b31b1b.svg)](https://arxiv.org/abs/2509.18282)
-[![Website](https://img.shields.io/badge/Website-peek--robot.github.io-blue)](https://peek-robot.github.io/)
-[![HF Papers](https://img.shields.io/badge/HuggingFace_Papers-huggingface.co/papers/2509.18282-green)](https://huggingface.co/papers/2509.18282)
+<p align="center">
+  <a href="https://arxiv.org/abs/2509.18282">
+    <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2509.18282-b31b1b.svg">
+  </a>
+  <a href="https://peek-robot.github.io/">
+    <img alt="Website" src="https://img.shields.io/badge/Website-peek--robot.github.io-blue">
+  </a>
+  <a href="https://huggingface.co/datasets/memmelma/peek_vqa">
+    <img alt="HF Dataset" src="https://img.shields.io/badge/%F0%9F%A4%97%20HF-Dataset-yellow">
+  </a>
+  <a href="https://huggingface.co/memmelma/peek_3b">
+    <img alt="HF Model" src="https://img.shields.io/badge/%F0%9F%A4%97%20HF-Model-yellow">
+  </a>
+</p>
 
 **PEEK** enhances the zero-shot generalization ability of any RGB-input manipulation policy by showing policies *where to focus on* and *what to do*. This guidance is given to the policy via a VLM that predicts *paths* and *masking points* to draw onto the policy's input images in closed-loop.
 
