@@ -7,3 +7,6 @@
 [submodule "point_tracking"]
 	path = point_tracking
 	url = git@github.com:peek-robot/point_tracking.git
+[submodule "peek_vlm"]
+	path = peek_vlm
+	url = https://github.com/memmelma/peek_vlm.git
