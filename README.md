@@ -7,9 +7,9 @@
 - [ ] Instructions for generating lerobot dataset from VLM labeled stuff
 - [x] Add dataset link
 - [x] Add model link
-- [ ] Add 3dda code 
+- [x] Add 3dda code 
 - [x] Add gradio example
-- [ ] Add peek_vlm repo
+- [x] Add peek_vlm repo
 - [ ] Add VLM training code
 
 # PEEK: Guiding and Minimal Image Representations for Zero-Shot Generalization of Robot Manipulation Policies
@@ -44,11 +44,11 @@ git clone --recursive https://github.com/peek-robot/peek.git # to download all s
 # or if you already downloaded the repo without --recursive:
 git submodule update --init --recursive
 ```
-- Follow the instructions in [peek_vlm](peek_vlm/README.md) to install the VLM.
-- For ACT baseline training/inference, follow the instructions in [lerobot](lerobot/README.md) to install the LeRobot.
-- For Pi-0, follow the instructions in [openpi](openpi/README.md) to install OpenPI.
-- For data labeling, follow the instructions in [point_tracking](point_tracking/README.md) to install the point tracking code.
-- For 3D-DA simulation, follow the instructions in [3dda](3dda/README.md) to install the 3dda code.
+- Follow the instructions in [peek_vlm](https://github.com/memmelma/peek_vlm/blob/main/README.md) to install the VLM.
+- For ACT baseline training/inference, follow the instructions in [lerobot](https://github.com/peek-robot/lerobot/blob/main/README.md) to install the LeRobot.
+- For Pi-0, follow the instructions in [openpi](https://github.com/peek-robot/openpi/blob/main/README.md) to install OpenPI.
+- For data labeling, follow the instructions in [point_tracking](https://github.com/peek-robot/point_tracking/blob/main/README.md) to install the point tracking code.
+- For 3D-DA simulation, follow the instructions in [3dda](https://github.com/peek-robot/threedda) to install the 3dda code.
 
 
 
@@ -93,13 +93,13 @@ PEEK significantly improves policy performance across various scenarios:
 
 We use the point tracking code to label the data. 
 To download raw OXE or BRIDGE_v2 datasets like we used for PEEK VLM training, or to try out the data annotation pipeline on your own dataset,
-see the [point tracking](point_tracking/README.md) for instructions and examples.
+see the [point tracking](https://github.com/peek-robot/point_tracking/blob/main/README.md) for instructions and examples.
 
 ## Using PEEK's VLM to label data
 
-We provide an example of using PEEK's VLM to label data in the [peek_vlm](peek_vlm/README.md) folder.
+We provide an example of using PEEK's VLM to label data in the [peek_vlm](https://github.com/memmelma/peek_vlm/blob/main/README.md) folder.
 
-We have inference examples (gradio, server/client), and we also have an example of batched labeling of VLM outputs at [bridge example](peek_vlm/scripts/label_bridge_data.py) with instructions in the README.
+We have inference examples (gradio, server/client), and we also have an example of batched labeling of VLM outputs at [bridge example](https://github.com/memmelma/peek_vlm/blob/main/scripts/label_bridge_data.py) with instructions in the README.
 
 Alternatively, if you just need the PEEK VLM path/mask labels for BRIDGE_v2, download [here](https://huggingface.co/datasets/jesbu1/peek_bridge_labels).
 
