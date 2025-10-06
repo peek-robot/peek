@@ -10,3 +10,7 @@
 [submodule "peek_vlm"]
 	path = peek_vlm
 	url = https://github.com/memmelma/peek_vlm.git
+[submodule "threedda"]
+	path = threedda
+	url = https://github.com/peek-robot/threedda
+	branch = main
