@@ -7,7 +7,7 @@
 - [ ] Instructions for generating lerobot dataset from VLM labeled stuff
 - [x] Add dataset link
 - [x] Add model link
-- [ ] Add 3dda code 
+- [x] Add 3dda code 
 - [x] Add gradio example
 - [x] Add peek_vlm repo
 - [ ] Add VLM training code
@@ -48,7 +48,7 @@ git submodule update --init --recursive
 - For ACT baseline training/inference, follow the instructions in [lerobot](https://github.com/peek-robot/lerobot/blob/main/README.md) to install the LeRobot.
 - For Pi-0, follow the instructions in [openpi](https://github.com/peek-robot/openpi/blob/main/README.md) to install OpenPI.
 - For data labeling, follow the instructions in [point_tracking](https://github.com/peek-robot/point_tracking/blob/main/README.md) to install the point tracking code.
-- For 3D-DA simulation, follow the instructions in [3dda](3dda/README.md) to install the 3dda code.
+- For 3D-DA simulation, follow the instructions in [3dda](https://github.com/peek-robot/threedda) to install the 3dda code.
 
 
 
