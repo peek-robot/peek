@@ -3,14 +3,14 @@
 - [x] Add point tracking 
 - [x] Add lerobot
 - [x] Add openpi
-- [ ] VLM bridge labeling code example
+- [x] VLM bridge labeling code example
 - [ ] Instructions for generating lerobot dataset from VLM labeled stuff
 - [x] Add dataset link
 - [x] Add model link
 - [x] Add 3dda code 
 - [x] Add gradio example
 - [x] Add peek_vlm repo
-- [ ] Add VLM training code
+- [ ] Add VLM training instructions
 
 # PEEK: Guiding and Minimal Image Representations for Zero-Shot Generalization of Robot Manipulation Policies
 
@@ -95,25 +95,33 @@ We use the point tracking code to label the data.
 To download raw OXE or BRIDGE_v2 datasets like we used for PEEK VLM training, or to try out the data annotation pipeline on your own dataset,
 see the [point tracking](https://github.com/peek-robot/point_tracking/blob/main/README.md) for instructions and examples.
 
+## VLM Training
+
+We provide VLM checkpoints for the experiments in the paper.
+If you want to train your own VLM, <span style="color:red">TODO</span>
+
 ## Using PEEK's VLM to label data
 
+<span style="color:red">TODO: fix this link below</span>
 We provide an example of using PEEK's VLM to label data in the [peek_vlm](https://github.com/memmelma/peek_vlm/blob/main/README.md) folder.
 
+<span style="color:red">TODO: fix this link below</span>
 We have inference examples (gradio, server/client), and we also have an example of batched labeling of VLM outputs at [bridge example](https://github.com/memmelma/peek_vlm/blob/main/scripts/label_bridge_data.py) with instructions in the README.
 
 Alternatively, if you just need the PEEK VLM path/mask labels for BRIDGE_v2, download [here](https://huggingface.co/datasets/jesbu1/peek_bridge_labels).
 
 ## Making a dataset with PEEK VLM labels
 
-TODO
+<span style="color:red">TODO</span>
 
-## Policy Training 
+## Policy Training and Evaluation/Inference
 
-TODO
+We include policy checkpoints for ACT+PEEK and Pi-0+PEEK trained on BRIDGEv2 (along with standard ACT and Pi-0 checkpoints).
+We also include training/inference code for experiments in the paper:
 
-## Policy Inference
-
-TODO
+- [LEROBOT](lerobot) repo for ACT training/inference.
+- [OPENPI](openpi) repo for Pi-0 training/inference.
+- [3D-DA](threedda) repo for 3D-DA sim training (for sim2real).
 
 ## 📄 Citation
 
