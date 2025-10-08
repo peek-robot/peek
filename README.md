@@ -119,9 +119,9 @@ Alternatively, if you just need the PEEK VLM path/mask labels for BRIDGE_v2, dow
 We include policy checkpoints for ACT+PEEK and Pi-0+PEEK trained on BRIDGEv2 (along with standard ACT and Pi-0 checkpoints).
 We also include training/inference code for experiments in the paper:
 
-- [LEROBOT](lerobot) repo for ACT training/inference.
-- [OPENPI](openpi) repo for Pi-0 training/inference.
-- [3D-DA](threedda) repo for 3D-DA sim training (for sim2real).
+- [LeRobot](https://github.com/peek-robot/lerobot/) repo for ACT training/inference.
+- [OpenPI](https://github.com/peek-robot/openpi/) repo for Pi-0 training/inference.
+- [3D-DA](https://github.com/peek-robot/threedda/) repo for 3D-DA sim training (for sim2real).
 
 ## 📄 Citation
 
