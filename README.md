@@ -98,8 +98,8 @@ see the [point tracking](https://github.com/peek-robot/point_tracking/blob/main/
 
 ## VLM Training
 
-We provide VLM checkpoints for the experiments in the paper.
-If you want to train your own VLM, <span style="color:red">TODO</span>
+We provide [VLM model checkpoints](https://huggingface.co/memmelma/peek_3b) and [VQA dataset](https://huggingface.co/datasets/memmelma/peek_vqa) for the experiments in the paper.
+If you want to train your own VLM, please follow the official [VILA SFT instructions](https://github.com/NVlabs/VILA/tree/vila1.5?tab=readme-ov-file#step-3-supervised-fine-tuning).
 
 ## Using PEEK's VLM to label data
 
