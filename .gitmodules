@@ -7,10 +7,10 @@
 [submodule "point_tracking"]
 	path = point_tracking
 	url = git@github.com:peek-robot/point_tracking.git
-[submodule "peek_vlm"]
-	path = peek_vlm
-	url = https://github.com/memmelma/peek_vlm.git
 [submodule "threedda"]
 	path = threedda
 	url = https://github.com/peek-robot/threedda
 	branch = main
+[submodule "peek_vlm"]
+	path = peek_vlm
+	url = https://github.com/peek-robot/peek_vlm.git
