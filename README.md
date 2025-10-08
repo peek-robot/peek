@@ -44,7 +44,8 @@ git clone --recursive https://github.com/peek-robot/peek.git # to download all s
 # or if you already downloaded the repo without --recursive:
 git submodule update --init --recursive
 ```
-- Follow the instructions in [peek_vlm](https://github.com/memmelma/peek_vlm/blob/main/README.md) to install the VLM.
+
+- Follow the instructions in [peek_vlm](https://github.com/peek-robot/peek_vlm/blob/main/README.md) to install the VLM.
 - For ACT baseline training/inference, follow the instructions in [lerobot](https://github.com/peek-robot/lerobot/blob/main/README.md) to install the LeRobot.
 - For Pi-0, follow the instructions in [openpi](https://github.com/peek-robot/openpi/blob/main/README.md) to install OpenPI.
 - For data labeling, follow the instructions in [point_tracking](https://github.com/peek-robot/point_tracking/blob/main/README.md) to install the point tracking code.
@@ -103,10 +104,10 @@ If you want to train your own VLM, <span style="color:red">TODO</span>
 ## Using PEEK's VLM to label data
 
 <span style="color:red">TODO: fix this link below</span>
-We provide an example of using PEEK's VLM to label data in the [peek_vlm](https://github.com/memmelma/peek_vlm/blob/main/README.md) folder.
+We provide an example of using PEEK's VLM to label data in the [peek_vlm](https://github.com/peek-robot/peek_vlm/blob/main/README.md) folder.
 
 <span style="color:red">TODO: fix this link below</span>
-We have inference examples (gradio, server/client), and we also have an example of batched labeling of VLM outputs at [bridge example](https://github.com/memmelma/peek_vlm/blob/main/scripts/label_bridge_data.py) with instructions in the README.
+We have inference examples (gradio, server/client), and we also have an example of batched labeling of VLM outputs at [bridge example](https://github.com/peek-robot/peek_vlm/blob/main/scripts/label_bridge_data.py) with instructions in the README.
 
 Alternatively, if you just need the PEEK VLM path/mask labels for BRIDGE_v2, download [here](https://huggingface.co/datasets/jesbu1/peek_bridge_labels).
 
