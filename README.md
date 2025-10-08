@@ -10,7 +10,7 @@
 - [x] Add 3dda code 
 - [x] Add gradio example
 - [x] Add peek_vlm repo
-- [ ] Add VLM training instructions
+- [x] Add VLM training instructions
 
 # PEEK: Guiding and Minimal Image Representations for Zero-Shot Generalization of Robot Manipulation Policies
 
