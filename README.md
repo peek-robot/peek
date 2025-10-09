@@ -1,17 +1,3 @@
-# TODOs
-
-- [x] Add point tracking 
-- [x] Add lerobot
-- [x] Add openpi
-- [x] VLM bridge labeling code example
-- [ ] Instructions for generating lerobot dataset from VLM labeled stuff
-- [x] Add dataset link
-- [x] Add model link
-- [x] Add 3dda code 
-- [x] Add gradio example
-- [x] Add peek_vlm repo
-- [x] Add VLM training instructions
-
 # PEEK: Guiding and Minimal Image Representations for Zero-Shot Generalization of Robot Manipulation Policies
 
 ![PEEK Teaser](peek_teaser.jpg)
@@ -103,17 +89,16 @@ If you want to train your own VLM, please follow the official [VILA SFT instruct
 
 ## Using PEEK's VLM to label data
 
-<span style="color:red">TODO: fix this link below</span>
 We provide an example of using PEEK's VLM to label data in the [peek_vlm](https://github.com/peek-robot/peek_vlm/blob/main/README.md) folder.
 
-<span style="color:red">TODO: fix this link below</span>
 We have inference examples (gradio, server/client), and we also have an example of batched labeling of VLM outputs at [bridge example](https://github.com/peek-robot/peek_vlm/blob/main/scripts/label_bridge_data.py) with instructions in the README.
 
 Alternatively, if you just need the PEEK VLM path/mask labels for BRIDGE_v2, download [here](https://huggingface.co/datasets/jesbu1/peek_bridge_labels).
 
 ## Making a dataset with PEEK VLM labels
 
-<span style="color:red">TODO</span>
+We provide an example dataset conversion scripts for PEEK-VLM generated labels for BRIDGE_v2 to demonstrate how to convert VLM-labeled data to LeRobot data for upload and training with ACT/Pi-0/any lerobot dataset supported policy and codebase.
+See: [openpi/examples/bridge/convert_bridge_data_to_lerobot.py](https://github.com/peek-robot/openpi/blob/main/examples/bridge/convert_bridge_data_to_lerobot.py).
 
 ## Policy Training and Evaluation/Inference
 
