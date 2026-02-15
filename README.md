@@ -1,4 +1,4 @@
-# PEEK: Guiding and Minimal Image Representations for Zero-Shot Generalization of Robot Manipulation Policies
+# PEEK: Guiding and Minimal Image Representations for Zero-Shot Generalization of Robot Manipulation Policies (ICRA 2026)
 
 ![PEEK Teaser](peek_teaser.jpg)
 
